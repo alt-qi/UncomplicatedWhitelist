@@ -1,0 +1,15 @@
+name: UncomplicatedWhitelist
+version: '${project.version}'
+main: ru.altqi.uwl.UWL
+api-version: 1.14
+authors: [ altqi ]
+description: A whitelist plugin that uses player names for identification instead of UUIDs.
+
+permissions:
+  uwl.operate:
+    description: Allows you to manage the UWL whitelist.
+
+commands:
+  uwl:
+    description: The main command of plugin.
+    permission: uwl.operate
