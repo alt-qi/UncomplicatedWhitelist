@@ -33,3 +33,5 @@ To put it another way, the plugin provides its own whitelist, where player ident
  + `/uwl off` - Disables the whitelist.
  + `/uwl import` - Imports all players from the Minecraft whitelist. 
  + `/uwl reload` - Reloads the config.
+ 
+**P.S.:** There is one permission in the entire plugin: `uwl.operate`. It allows you to use all the commands of plugin.
